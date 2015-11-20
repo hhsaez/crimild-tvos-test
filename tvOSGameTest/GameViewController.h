@@ -6,8 +6,7 @@
 //  Copyright (c) 2015 Hernan Saez. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <Crimild-iOS.h>
+#import "CrimildViewController.h"
 
 @interface GameViewController : CrimildViewController
 

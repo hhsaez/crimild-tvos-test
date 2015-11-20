@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "618311416B87B07443DAA73F9356DCFAEE8EA874" : 0,
+    "FEF3F7A734F00BAA4428AAF9B2352E86DACE75A0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C8A8F676-F2CD-4878-ABAE-CB1F9FD6BBC3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "618311416B87B07443DAA73F9356DCFAEE8EA874" : "..\/Crimild\/dungeon",
+    "FEF3F7A734F00BAA4428AAF9B2352E86DACE75A0" : "tvOSGameTest\/crimild\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tvOSGameTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tvOSGameTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/hhsaez\/dungeon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "618311416B87B07443DAA73F9356DCFAEE8EA874"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hhsaez\/crimild.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FEF3F7A734F00BAA4428AAF9B2352E86DACE75A0"
+    }
+  ]
+}
