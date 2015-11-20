@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F5C74091BFF687800E555AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C74081BFF687800E555AA /* main.m */; };
+		5F5C740C1BFF687800E555AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C740B1BFF687800E555AA /* AppDelegate.m */; };
+		5F5C740E1BFF687800E555AA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C740D1BFF687800E555AA /* art.scnassets */; };
+		5F5C74111BFF687800E555AA /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C74101BFF687800E555AA /* GameViewController.mm */; };
+		5F5C74141BFF687800E555AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C74121BFF687800E555AA /* Main.storyboard */; };
+		5F5C74161BFF687900E555AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C74151BFF687900E555AA /* Assets.xcassets */; };
+		5F5C74211BFF687900E555AA /* tvOSGameTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C74201BFF687900E555AA /* tvOSGameTestTests.m */; };
+		5F5C742C1BFF687900E555AA /* tvOSGameTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C742B1BFF687900E555AA /* tvOSGameTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F5C741D1BFF687900E555AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5C73FC1BFF687800E555AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5C74031BFF687800E555AA;
+			remoteInfo = tvOSGameTest;
+		};
+		5F5C74281BFF687900E555AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5C73FC1BFF687800E555AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5C74031BFF687800E555AA;
+			remoteInfo = tvOSGameTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F5C74041BFF687800E555AA /* tvOSGameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSGameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5C74081BFF687800E555AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F5C740A1BFF687800E555AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F5C740B1BFF687800E555AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F5C740D1BFF687800E555AA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5F5C740F1BFF687800E555AA /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5F5C74101BFF687800E555AA /* GameViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
+		5F5C74131BFF687800E555AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F5C74151BFF687900E555AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F5C74171BFF687900E555AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5C741C1BFF687900E555AA /* tvOSGameTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvOSGameTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5C74201BFF687900E555AA /* tvOSGameTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tvOSGameTestTests.m; sourceTree = "<group>"; };
+		5F5C74221BFF687900E555AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5C74271BFF687900E555AA /* tvOSGameTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvOSGameTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5C742B1BFF687900E555AA /* tvOSGameTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tvOSGameTestUITests.m; sourceTree = "<group>"; };
+		5F5C742D1BFF687900E555AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F5C74011BFF687800E555AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5C74191BFF687900E555AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5C74241BFF687900E555AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F5C73FB1BFF687800E555AA = {
+			isa = PBXGroup;
+			children = (
+				5F5C74061BFF687800E555AA /* tvOSGameTest */,
+				5F5C741F1BFF687900E555AA /* tvOSGameTestTests */,
+				5F5C742A1BFF687900E555AA /* tvOSGameTestUITests */,
+				5F5C74051BFF687800E555AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F5C74051BFF687800E555AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C74041BFF687800E555AA /* tvOSGameTest.app */,
+				5F5C741C1BFF687900E555AA /* tvOSGameTestTests.xctest */,
+				5F5C74271BFF687900E555AA /* tvOSGameTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F5C74061BFF687800E555AA /* tvOSGameTest */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C740A1BFF687800E555AA /* AppDelegate.h */,
+				5F5C740B1BFF687800E555AA /* AppDelegate.m */,
+				5F5C740D1BFF687800E555AA /* art.scnassets */,
+				5F5C740F1BFF687800E555AA /* GameViewController.h */,
+				5F5C74101BFF687800E555AA /* GameViewController.mm */,
+				5F5C74121BFF687800E555AA /* Main.storyboard */,
+				5F5C74151BFF687900E555AA /* Assets.xcassets */,
+				5F5C74171BFF687900E555AA /* Info.plist */,
+				5F5C74071BFF687800E555AA /* Supporting Files */,
+			);
+			path = tvOSGameTest;
+			sourceTree = "<group>";
+		};
+		5F5C74071BFF687800E555AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C74081BFF687800E555AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F5C741F1BFF687900E555AA /* tvOSGameTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C74201BFF687900E555AA /* tvOSGameTestTests.m */,
+				5F5C74221BFF687900E555AA /* Info.plist */,
+			);
+			path = tvOSGameTestTests;
+			sourceTree = "<group>";
+		};
+		5F5C742A1BFF687900E555AA /* tvOSGameTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C742B1BFF687900E555AA /* tvOSGameTestUITests.m */,
+				5F5C742D1BFF687900E555AA /* Info.plist */,
+			);
+			path = tvOSGameTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F5C74031BFF687800E555AA /* tvOSGameTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5C74301BFF687900E555AA /* Build configuration list for PBXNativeTarget "tvOSGameTest" */;
+			buildPhases = (
+				5F5C74001BFF687800E555AA /* Sources */,
+				5F5C74011BFF687800E555AA /* Frameworks */,
+				5F5C74021BFF687800E555AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOSGameTest;
+			productName = tvOSGameTest;
+			productReference = 5F5C74041BFF687800E555AA /* tvOSGameTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F5C741B1BFF687900E555AA /* tvOSGameTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5C74331BFF687900E555AA /* Build configuration list for PBXNativeTarget "tvOSGameTestTests" */;
+			buildPhases = (
+				5F5C74181BFF687900E555AA /* Sources */,
+				5F5C74191BFF687900E555AA /* Frameworks */,
+				5F5C741A1BFF687900E555AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5C741E1BFF687900E555AA /* PBXTargetDependency */,
+			);
+			name = tvOSGameTestTests;
+			productName = tvOSGameTestTests;
+			productReference = 5F5C741C1BFF687900E555AA /* tvOSGameTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F5C74261BFF687900E555AA /* tvOSGameTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5C74361BFF687900E555AA /* Build configuration list for PBXNativeTarget "tvOSGameTestUITests" */;
+			buildPhases = (
+				5F5C74231BFF687900E555AA /* Sources */,
+				5F5C74241BFF687900E555AA /* Frameworks */,
+				5F5C74251BFF687900E555AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5C74291BFF687900E555AA /* PBXTargetDependency */,
+			);
+			name = tvOSGameTestUITests;
+			productName = tvOSGameTestUITests;
+			productReference = 5F5C74271BFF687900E555AA /* tvOSGameTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F5C73FC1BFF687800E555AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hernan Saez";
+				TargetAttributes = {
+					5F5C74031BFF687800E555AA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					5F5C741B1BFF687900E555AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5F5C74031BFF687800E555AA;
+					};
+					5F5C74261BFF687900E555AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5F5C74031BFF687800E555AA;
+					};
+				};
+			};
+			buildConfigurationList = 5F5C73FF1BFF687800E555AA /* Build configuration list for PBXProject "tvOSGameTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F5C73FB1BFF687800E555AA;
+			productRefGroup = 5F5C74051BFF687800E555AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F5C74031BFF687800E555AA /* tvOSGameTest */,
+				5F5C741B1BFF687900E555AA /* tvOSGameTestTests */,
+				5F5C74261BFF687900E555AA /* tvOSGameTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F5C74021BFF687800E555AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5C740E1BFF687800E555AA /* art.scnassets in Resources */,
+				5F5C74161BFF687900E555AA /* Assets.xcassets in Resources */,
+				5F5C74141BFF687800E555AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5C741A1BFF687900E555AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5C74251BFF687900E555AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F5C74001BFF687800E555AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5C740C1BFF687800E555AA /* AppDelegate.m in Sources */,
+				5F5C74111BFF687800E555AA /* GameViewController.mm in Sources */,
+				5F5C74091BFF687800E555AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5C74181BFF687900E555AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5C74211BFF687900E555AA /* tvOSGameTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5C74231BFF687900E555AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5C742C1BFF687900E555AA /* tvOSGameTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F5C741E1BFF687900E555AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5C74031BFF687800E555AA /* tvOSGameTest */;
+			targetProxy = 5F5C741D1BFF687900E555AA /* PBXContainerItemProxy */;
+		};
+		5F5C74291BFF687900E555AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5C74031BFF687800E555AA /* tvOSGameTest */;
+			targetProxy = 5F5C74281BFF687900E555AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F5C74121BFF687800E555AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5C74131BFF687800E555AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F5C742E1BFF687900E555AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		5F5C742F1BFF687900E555AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F5C74311BFF687900E555AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = (
+					/Users/hernan/Development/Crimild/dungeon/crimild/ios/Crimild/Crimild,
+					/Users/hernan/Development/Crimild/dungeon/crimild/core/src,
+					/Users/hernan/Development/Crimild/dungeon/crimild/opengl/src,
+					/Users/hernan/Development/Crimild/dungeon/crimild/scripting/src,
+					"/Users/hernan/Development/Crimild/dungeon/crimild/third-party/lua-5.2.3/src",
+				);
+				INFOPLIST_FILE = tvOSGameTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimild.tvOSGameTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F5C74321BFF687900E555AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = (
+					/Users/hernan/Development/Crimild/dungeon/crimild/ios/Crimild/Crimild,
+					/Users/hernan/Development/Crimild/dungeon/crimild/core/src,
+					/Users/hernan/Development/Crimild/dungeon/crimild/opengl/src,
+					/Users/hernan/Development/Crimild/dungeon/crimild/scripting/src,
+					"/Users/hernan/Development/Crimild/dungeon/crimild/third-party/lua-5.2.3/src",
+				);
+				INFOPLIST_FILE = tvOSGameTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimild.tvOSGameTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F5C74341BFF687900E555AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = tvOSGameTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimild.tvOSGameTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOSGameTest.app/tvOSGameTest";
+			};
+			name = Debug;
+		};
+		5F5C74351BFF687900E555AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tvOSGameTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimild.tvOSGameTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOSGameTest.app/tvOSGameTest";
+			};
+			name = Release;
+		};
+		5F5C74371BFF687900E555AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = tvOSGameTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimild.tvOSGameTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tvOSGameTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5F5C74381BFF687900E555AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tvOSGameTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimild.tvOSGameTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tvOSGameTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F5C73FF1BFF687800E555AA /* Build configuration list for PBXProject "tvOSGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5C742E1BFF687900E555AA /* Debug */,
+				5F5C742F1BFF687900E555AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5C74301BFF687900E555AA /* Build configuration list for PBXNativeTarget "tvOSGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5C74311BFF687900E555AA /* Debug */,
+				5F5C74321BFF687900E555AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F5C74331BFF687900E555AA /* Build configuration list for PBXNativeTarget "tvOSGameTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5C74341BFF687900E555AA /* Debug */,
+				5F5C74351BFF687900E555AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F5C74361BFF687900E555AA /* Build configuration list for PBXNativeTarget "tvOSGameTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5C74371BFF687900E555AA /* Debug */,
+				5F5C74381BFF687900E555AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F5C73FC1BFF687800E555AA /* Project object */;
+}
